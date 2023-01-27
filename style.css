@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-element {
+    @apply bg-[rgba(20,57,64,0.4)] pr-6 pl-6 pt-2 pb-2 hover:text-gray-300
+    hover:bg-[rgb(99,98,98)] hover:bg-opacity-40 ml-1 hover:cursor-pointer;
+}
+
+.clicked-nav {
+    @apply bg-[rgb(99,98,98)] bg-opacity-60 rounded-t-xl text-gray-400
+}
