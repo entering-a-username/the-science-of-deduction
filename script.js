@@ -8,7 +8,7 @@
         })
     })
     // how do i do it that if i click one nav the other removes the classes
-   
+   // ill continue this later
 
 
 })();
